@@ -1,0 +1,45 @@
+.window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.field {
+    margin: auto;
+    max-width: fit-content;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    font-size: 60px;
+    border: 1px gray solid;
+    text-align: center;
+}
+
+h4, p {
+    text-align: center;
+    margin: 3px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: center;
+    margin: 3px;
+}
+
+input {
+    margin-top: 5px;
+    padding: 5px;
+}
